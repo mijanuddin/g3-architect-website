@@ -191,7 +191,17 @@ main > section{
 .sponsor-companies img {
 filter:grayscale(100%)
 }
-
+/* copyright-section */
+.copyright-section{
+  margin:auto;
+  width:1440px;
+  text-align: center;
+  padding: 40px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 130px;
+  margin-bottom: 200px;
+}
 
 
 
@@ -226,6 +236,11 @@ filter:grayscale(100%)
     margin-left:0px;
    
   }
+  .copyright-section{
+    width:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
   
 }
 
@@ -247,5 +262,10 @@ filter:grayscale(100%)
     margin-top:20px;
     margin-left:0px;
    
+  }
+  .copyright-section{
+    width:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 }
